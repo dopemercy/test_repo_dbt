@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: snowflake_employee_data
+    database: DB_FOR_DBT
+    schema: public 
+    tables:
+      - name: EMPLOYEEDETAILS
+        description: "This contains employee related data"
+
+  - name: employee_extracted_data
+    database: MYNEWDB
+    schema: DBT_TEST_SCHEMA_AGUPTA
+    tables:
+      - name: EMPLOYEE_CREDENTIALS
+        description: "This contains employee credentials"
+
+      - name: EMPLOYEE_PERSONAL_DETAILS
+        description: "This contains employee personal details"
+
+
+
+
