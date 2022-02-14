@@ -26235,3 +26235,39 @@ There are 1 unused configuration paths:
 2022-02-14 14:56:49.539274 (Thread-73): handling status request
 2022-02-14 14:56:49.539657 (Thread-73): 14:56:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc177280>]}
 2022-02-14 14:56:49.540137 (Thread-73): sending response (<Response 1683 bytes [200 OK]>) to 10.0.4.162
+2022-02-14 14:56:51.394192 (Thread-74): 14:56:51  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-14 14:56:51.394388 (Thread-74): 14:56:51  Partial parsing enabled, no changes found, skipping parsing
+2022-02-14 14:56:51.394739 (Thread-74): 14:56:51  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.new_test_project.example
+
+2022-02-14 14:56:51.399293 (Thread-74): 14:56:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc113ee0>]}
+2022-02-14 14:56:52.433655 (Thread-75): handling status request
+2022-02-14 14:56:52.434068 (Thread-75): 14:56:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc04bbb0>]}
+2022-02-14 14:56:52.434569 (Thread-75): sending response (<Response 1683 bytes [200 OK]>) to 10.0.42.17
+2022-02-14 14:56:52.636944 (Thread-76): handling status request
+2022-02-14 14:56:52.637355 (Thread-76): 14:56:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc04b7c0>]}
+2022-02-14 14:56:52.637874 (Thread-76): sending response (<Response 1683 bytes [200 OK]>) to 10.0.42.113
+2022-02-14 14:57:10.638719 (Thread-77): handling status request
+2022-02-14 14:57:10.639107 (Thread-77): 14:57:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc04b5e0>]}
+2022-02-14 14:57:10.639590 (Thread-77): sending response (<Response 1661 bytes [200 OK]>) to 10.0.21.58
+2022-02-14 14:57:10.653359 (Thread-78): handling list request
+2022-02-14 14:57:10.653651 (Thread-78): 14:57:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc04b370>]}
+2022-02-14 14:57:10.681745 (Thread-78): 14:57:10  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc03fe50>]}
+2022-02-14 14:57:10.682093 (Thread-78): 14:57:10  Found 4 models, 0 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-14 14:57:10.682460 (Thread-78): 14:57:10  The selection criterion '+.gitignore+' does not match any nodes
+2022-02-14 14:57:10.682587 (Thread-78): 14:57:10  No nodes selected!
+2022-02-14 14:57:10.683992 (Thread-78): sending response (<Response 1919 bytes [200 OK]>) to 10.0.21.58
+2022-02-14 14:57:21.501108 (Thread-79): handling status request
+2022-02-14 14:57:21.501449 (Thread-79): 14:57:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc1e8e20>]}
+2022-02-14 14:57:21.501947 (Thread-79): sending response (<Response 1661 bytes [200 OK]>) to 10.0.21.58
+2022-02-14 14:57:21.509159 (Thread-80): handling list request
+2022-02-14 14:57:21.509406 (Thread-80): 14:57:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc1144c0>]}
+2022-02-14 14:57:21.536380 (Thread-80): 14:57:21  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc03f640>]}
+2022-02-14 14:57:21.536644 (Thread-80): 14:57:21  Found 4 models, 0 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-02-14 14:57:21.536977 (Thread-80): 14:57:21  The selection criterion '+.gitignore+' does not match any nodes
+2022-02-14 14:57:21.537100 (Thread-80): 14:57:21  No nodes selected!
+2022-02-14 14:57:21.538583 (Thread-80): sending response (<Response 1919 bytes [200 OK]>) to 10.0.21.58
+2022-02-14 14:57:57.283094 (Thread-81): handling status request
+2022-02-14 14:57:57.283501 (Thread-81): 14:57:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'd1d77cb1-c727-40d6-8204-6a92567391ef', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe1bc114700>]}
+2022-02-14 14:57:57.284075 (Thread-81): sending response (<Response 1683 bytes [200 OK]>) to 10.0.42.113
