@@ -8,7 +8,7 @@ emp_pers AS(
 ),
 
 final as (
-    select emp_pers.employee_id,emp_pers.emp_name,emp_pers.gender,emp_pers.date_of_birth from emp_pers
+    select emp_pers.employee_id,emp_pers.emp_name,emp_pers.gender,emp_pers.date_of_birth,emp_cred.username,emp_cred.password from emp_pers
     left join emp_cred on
     emp_pers.employee_id = emp_cred.emp_id
 )
